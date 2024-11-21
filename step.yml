@@ -115,6 +115,11 @@ inputs:
       is_required: true
       value_options: ["HTML", "JSON", "XML", "CSV", "JUNIT", "SARIF", "JENKINS", "GITLAB", "ALL"]
 
+  - deploy_dir: "$BITRISE_DEPLOY_DIR"
+    opts:
+      title: "Deploy directory to output scan artifacts"
+      is_required: true
+
   - api_key: ""
     opts:
       title: "API Key"

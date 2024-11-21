@@ -30,5 +30,9 @@ if [ -n "$api_key" ]; then
   cmd+=" --nvdApiKey $api_key"
 fi
 
+if [ -n "$deploy_dir" ]; then
+  cmd+=" --out $deploy_dir"
+fi
+
 # Execute the command
 eval $cmd
