@@ -64,7 +64,10 @@ type_tags:
 toolkit:
   bash:
     entry_file: step.sh
-
+deps:
+  brew:
+  - name: git
+  - name: dependency-check
 inputs:
   - fail_on_cvss_level: 11
     opts:
