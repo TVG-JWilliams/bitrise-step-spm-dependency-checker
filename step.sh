@@ -19,7 +19,7 @@ if [ -n "$app_title" ]; then
 fi
 
 if [ -n "$spm_file_path" ]; then
-  cmd+=" --scan $spm_file_path"
+  cmd+=" --scan $spm_file_path/**/Package.resolved"
 fi
 
 if [ -n "$output_file_format" ]; then
