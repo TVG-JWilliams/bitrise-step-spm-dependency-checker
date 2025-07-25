@@ -40,7 +40,7 @@ workflows:
           file if you would not specify another value.
         run_if: true
         inputs:
-        - nvdApiKey: "f15e127d-dae6-44d8-bc07-f7558f4ebf23"
+        - nvdApiKey: $DEPENDENCY_CHECK_API_KEY
     - script:
         inputs:
         - content: |
