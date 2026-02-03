@@ -99,7 +99,7 @@ inputs:
       summary: "The path to the Swift Package Manager file."
       description: |
         The path to the `Package.swift` file that defines the dependencies for the iOS project. If nothing is passed here, the scan will be done at root
-      is_expand: true
+      is_expand: false
       is_required: false
       value_options: []
 
